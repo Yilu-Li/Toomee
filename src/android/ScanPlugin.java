@@ -27,11 +27,11 @@ public class ScanPlugin extends CordovaPlugin {
 //		return true;
 //		}
 //		return false;
-		Log.d(“222222‘, ”fasdfafasf333333333333333333333333333");
+		Log.d("222222", "fasdfafasf333333333333333333333333333");
 		this.callbackContext = callbackContext;
 		JSONObject obj = new JSONObject();
 		String ret = PackageUtils.getInstalledAppInfoList(MainActivity.appContext);
-		Log.d(“222222‘, ret);
+		Log.d("222222", ret);
 		obj.put("appslist", ret);
 		this.callbackContext.success(obj);
         this.callbackContext.error("1111111");
