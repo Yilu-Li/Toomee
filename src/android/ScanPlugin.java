@@ -30,7 +30,7 @@ public class ScanPlugin extends CordovaPlugin {
 		Log.d("222222", "fasdfafasf333333333333333333333333333");
 		this.callbackContext = callbackContext;
 		JSONObject obj = new JSONObject();
-		String ret = PackageUtils.getInstalledAppInfoList(MainActivity.appContext);
+		String ret = PackageUtils.getInstalledAppInfoList(this.cordova.getActivity().getApplicationContext());
 		Log.d("222222", ret);
 		obj.put("appslist", ret);
 		this.callbackContext.success(obj);
