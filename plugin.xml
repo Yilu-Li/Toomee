@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="org.noyaxe.scanapps"
+        id="com.noyaxe.plugintest"
         version="0.1.0">
     <name>Scanapps</name>
     <description>Sample PhoneGap Scanapps Plugin</description>
@@ -10,7 +10,7 @@
 
 
     <js-module src="www/scan_apps.js" name="Scan">
-        <clobbers target="cordova.plugins.org.noyaxe.scanapps" />
+        <clobbers target="cordova.window.scanapps" />
     </js-module>
 
     <!-- android -->
