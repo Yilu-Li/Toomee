@@ -1,4 +1,4 @@
-package com.noyaxe.plugintest;
+package org.noyaxe.scanapps;
 
 import java.util.ArrayList;
 
