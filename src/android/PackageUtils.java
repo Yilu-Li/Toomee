@@ -1,4 +1,4 @@
-package com.noyaxe.plugintest;
+package org.noyaxe.scanapps;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
