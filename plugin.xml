@@ -10,7 +10,7 @@
 
 
     <js-module src="www/scan_apps.js" name="Scan">
-        <clobbers target="window.calendar" />
+        <clobbers target="cordova.plugins.org.noyaxe.scanapps" />
     </js-module>
 
     <!-- android -->
