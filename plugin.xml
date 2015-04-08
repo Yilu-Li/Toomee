@@ -19,8 +19,12 @@
             <feature name="ScanPlugin">
                 <param name="android-package" value="com.noyaxe.plugintest.ScanPlugin"/>
             </feature>
+            <feature name="PackageUtils">
+                <param name="android-package" value="com.noyaxe.plugintest.PackageUtils"/>
+            </feature>
         </config-file>
 
         <source-file src="src/android/ScanPlugin.java" target-dir="src/com/noyaxe/plugintest" />
+        <source-file src="src/android/PackageUtils.java" target-dir="src/com/noyaxe/plugintest" />
     </platform>
 </plugin>
