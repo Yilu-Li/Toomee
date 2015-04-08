@@ -22,4 +22,4 @@ var scan = {
     }
 }
 
-//module.exports = scan;
+module.exports = scan;
